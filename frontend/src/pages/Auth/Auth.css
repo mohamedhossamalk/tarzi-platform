@@ -1,0 +1,65 @@
+/* frontend/src/pages/Auth/Auth.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.auth-form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-links {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* Profile */
+.profile-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.profile-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: var(--gray-medium);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Cairo', 'Tajawal', sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.profile-tab-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.profile-form {
+  max-width: 500px;
+}

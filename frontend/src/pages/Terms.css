@@ -1,0 +1,69 @@
+/* frontend/src/pages/Terms.css */
+.terms-container {
+  margin-bottom: 3rem;
+}
+
+.terms-header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: -30px;
+  margin-bottom: 3rem;
+}
+
+.terms-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.terms-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.terms-section {
+  margin-bottom: 2.5rem;
+}
+
+.terms-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.terms-section p, .terms-section ul {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.terms-section strong {
+  font-weight: 600;
+}
+
+.terms-section ul {
+  padding-right: 2rem;
+}
+
+.terms-section li {
+  margin-bottom: 0.5rem;
+}
+
+.terms-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--gray-dark);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .terms-header h1 {
+    font-size: 2rem;
+  }
+}
